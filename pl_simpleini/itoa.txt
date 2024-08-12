@@ -1,0 +1,21 @@
+#include <iostream>//输入输出
+#include <stdlib.h>//atoi函数
+using namespace std;
+
+const int N = 100010;
+
+
+
+
+
+int main() {
+	int a;
+    auto f = 1.0;
+	cin >> a;
+	char s[10];
+	itoa(a, s, 10);
+	cout << s << endl;
+    cout << typeid(f).name() << endl;
+    
+    return 0;
+}
